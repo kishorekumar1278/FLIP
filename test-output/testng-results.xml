@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="282" started-at="2019-11-16T12:12:09Z" finished-at="2019-11-16T12:12:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="282" started-at="2019-11-16T12:12:09Z" finished-at="2019-11-16T12:12:09Z">
+      <class name="com.tm.TestCases.TestCases_Leave">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:com.tm.TestCases.TestCases_Leave@74fe5c40]" name="setupReport" is-config="true" duration-ms="203" started-at="2019-11-16T17:42:08Z" finished-at="2019-11-16T17:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="FAIL" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:com.tm.TestCases.TestCases_Leave@74fe5c40]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2019-11-16T17:42:09Z" finished-at="2019-11-16T17:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tm.TestCases.TestCases_Leave.TC101_verifyLoginFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Tm-5-PC', ip: '192.168.1.43', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'Tm-5-PC', ip: '192.168.1.43', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:74)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:60)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:56)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at com.tm.BaseClass.BaseClass.launchBrowser(BaseClass.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="TC101_verifyLoginFunctionality()[pri:0, instance:com.tm.TestCases.TestCases_Leave@74fe5c40]" name="TC101_verifyLoginFunctionality" duration-ms="15" started-at="2019-11-16T17:42:09Z" finished-at="2019-11-16T17:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_verifyLoginFunctionality -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.tm.TestCases.TestCases_Leave@74fe5c40]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-11-16T17:42:09Z" finished-at="2019-11-16T17:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:com.tm.TestCases.TestCases_Leave@74fe5c40]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2019-11-16T17:42:09Z" finished-at="2019-11-16T17:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="TC102_ApplyLeave()[pri:0, instance:com.tm.TestCases.TestCases_Leave@74fe5c40]" name="TC102_ApplyLeave" duration-ms="0" started-at="2019-11-16T17:42:09Z" finished-at="2019-11-16T17:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC102_ApplyLeave -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.tm.TestCases.TestCases_Leave@74fe5c40]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-11-16T17:42:09Z" finished-at="2019-11-16T17:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="toEnd()[pri:0, instance:com.tm.TestCases.TestCases_Leave@74fe5c40]" name="toEnd" is-config="true" duration-ms="0" started-at="2019-11-16T17:42:09Z" finished-at="2019-11-16T17:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toEnd -->
+      </class> <!-- com.tm.TestCases.TestCases_Leave -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
